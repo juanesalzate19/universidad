@@ -1,0 +1,118 @@
+/* ----------------- vista de index ---------------- */
+.fondoIndex{
+    background-image: url('imagenes/FondoCastillo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+p{
+    font-family: 'Antonio';font-size: 22px;
+}
+
+.footerIndex{
+    background: #ffffff;
+    padding: 0px;
+}
+.footerIndex img{
+    width: 40px;
+    
+}
+.buttonIndex:hover {
+    background-color: #cfcfcf;
+    color: rgb(0, 0, 0);
+}
+
+.pie:hover{
+    background-color: #cfcfcf;
+    color: rgb(0, 0, 0);
+}
+.contenedor { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contenedor figure img{
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    transition: all 500ms ease-out;
+    
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: auto;
+}
+/* ----------------HISTORIA--------------------- */
+
+/* ----------------- vista de registros ---------------- */
+.a{
+    background-image: url('imagenes/FondoCastillo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.datos1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;font-size: 20px;
+    padding: 40px;
+   
+}
+
+.footerRegistroEST{
+    background: #ffffff;
+    padding: 0px;
+}
+.footerRegistroEST img{
+    width: 40px;
+    
+}
+.button:hover {
+    background-color: #cfcfcf;
+    color: rgb(0, 0, 0);
+}
+
+.pie:hover{
+    background-color: #cfcfcf;
+    color: rgb(0, 0, 0);
+}
+/* ----------------- vista de mallas ---------------- */
+.malla:hover {
+    background-color: #555555;
+    color: rgb(0, 0, 0);
+}
+
